@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -13,3 +13,4 @@ public class AppUtil
         yield return new WaitForSeconds(waitTime);
     }
 }
+
