@@ -14,7 +14,7 @@ public class AppUtil
         yield return new WaitForSeconds(waitTime);
     }
 
-    public static SetMaterialFloat(Material mat, string property, float startValue, float endValue, float duration, Ease ease)
+    public static void SetMaterialFloat(Material mat, string property, float startValue, float endValue, float duration, Ease ease)
     {
         DOTween.To(
             ()=> startValue,
